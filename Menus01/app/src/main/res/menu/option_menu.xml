@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu1"
+        android:orderInCategory="10"
+        android:title="Setting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu2"
+        android:icon="@android:drawable/presence_audio_online"
+        android:orderInCategory="11"
+        android:title="mic"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:orderInCategory="8"
+        android:title="status"
+        android:id="@+id/menu3"/>
+</menu>
